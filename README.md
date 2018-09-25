@@ -14,12 +14,12 @@
 
 # Add a new device
 - Download the latest certs/profiles: `fastlane match development`
-- Add the new device name and identifier here: `./fastlane/Fastlane`
+- Add the new device name and identifier here: `./fastlane/Fastfile`
   - Replace `<device name>` with the name of your device
   - Replace `<device identifier>` with the identifier of your device
 - Add the new device: `bundle exec fastlane add_device`
 - Upload the new certs/profiles: `bundle exec fastlane match development --force_for_new_devices`
-- Revert your changes to `./fastlane/Fastlane`
+- Revert your changes to `./fastlane/Fastfile`
 
 # Icons
 Most icons from https://icons8.com/
